@@ -1,0 +1,24 @@
+{
+  "name": "ca-geology",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "download": "tsx src/download.ts",
+    "assemble": "tsx src/assemble.ts"
+  },
+  "keywords": [],
+  "author": "Chet Corcos <ccorcos@gmail.com> (http://www.chetcorcos.com/)",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "canvas": "^3.0.1",
+    "fs-extra": "^11.2.0",
+    "p-limit": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.10.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
